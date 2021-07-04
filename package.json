@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev": "concurrently \"cd .\\client && yarn start\" \"cd .\\server && yarn dev \" "
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.170",
+    "concurrently": "^6.2.0",
+    "dotenv": "^10.0.0",
+    "lodash": "^4.17.21"
+  }
+}
